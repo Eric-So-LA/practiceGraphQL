@@ -1,6 +1,6 @@
 var graphqlHTTP = require('express-graphql');
 var app = require('express')();
-var Schema = require('./src/schema').Schema;
+var Schema = require('./src/schema');
 app.get('/', function(req, res){
 	res.redirect('/graphql');
 })
